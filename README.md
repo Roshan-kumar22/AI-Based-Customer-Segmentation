@@ -98,18 +98,9 @@ Frontend runs at http://localhost:5173
 
 ## CSV Schema
 Required columns: `CustomerID`, `Gender`, `Age`, `Annual Income`, `Spending Score`
-- The backend also accepts common Kaggle headers and normalizes them:
-  - `Annual Income (k$)` → `Annual Income`
-  - `Spending Score (1-100)` → `Spending Score`
 
-## Deployment
-- Backend: Render, Railway, or AWS EC2. Set `MAX_CONTENT_LENGTH_MB` as needed, and ensure proxy upload limits allow large files.
-- Frontend: Vercel or Netlify. Set `VITE_API_URL` to your hosted backend URL.
 
-## Troubleshooting
-- “Network Error” on upload: typically CORS/preflight, wrong `VITE_API_URL`, or file exceeding limits. Check browser Network tab and backend logs.
-- 413 on upload: raise `MAX_CONTENT_LENGTH_MB` and adjust reverse proxy limits.
-- Training memory errors: consider reducing dataset size or switch to MiniBatchKMeans (open an issue/PR and we’ll help).
+
 
 ## License
 MIT
