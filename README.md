@@ -38,7 +38,7 @@ customer-segmentation/
 ```
 
 ## Prerequisites
-- Python 3.10+
+- Python 3.10
 - Node.js 18+
 
 ## Backend Setup (Flask)
