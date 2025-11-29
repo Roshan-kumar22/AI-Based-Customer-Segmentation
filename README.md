@@ -19,10 +19,10 @@ customer-segmentation/
 ├── backend/
 │   ├── app.py
 │   ├── requirements.txt
-│   ├── database.db                # created at runtime
-│   ├── Mall_Customers.csv         # sample (or downloaded via /sample-dataset)
+│   ├── database.db                
+│   ├── Mall_Customers.csv         
 │   └── models/
-│       ├── kmeans_model.joblib    # created after /train
+│       ├── kmeans_model.joblib    
 │       ├── scaler.joblib
 │       └── pca.joblib
 └── frontend/
